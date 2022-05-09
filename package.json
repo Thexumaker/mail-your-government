@@ -1,0 +1,23 @@
+{
+  "name": "mail-your-government",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thexumaker/mail-your-government.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thexumaker/mail-your-government/issues"
+  },
+  "homepage": "https://github.com/Thexumaker/mail-your-government#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "lob": "^6.6.2"
+  }
+}

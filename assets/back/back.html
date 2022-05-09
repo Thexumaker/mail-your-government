@@ -1,0 +1,152 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://use.typekit.net/hyc7amh.css">
+  <style>
+    *,
+    *:before,
+    *:after {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    @import url("https://p.typekit.net/p.css?s=1&k=hyc7amh&ht=tk&f=10793.10794.10795.10796.10801.10802.10804.10805&a=70186405&app=typekit&e=css");
+
+    @font-face {
+      font-family: "nimbus-sans";
+      src: url("https://use.typekit.net/af/da0c19/00000000000000000001518d/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/da0c19/00000000000000000001518d/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/da0c19/00000000000000000001518d/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+      font-display: auto;
+      font-style: normal;
+      font-weight: 400;
+    }
+
+    @font-face {
+      font-family: "nimbus-sans";
+      src: url("https://use.typekit.net/af/7ba522/00000000000000000001011f/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"), url("https://use.typekit.net/af/7ba522/00000000000000000001011f/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"), url("https://use.typekit.net/af/7ba522/00000000000000000001011f/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+      font-display: auto;
+      font-style: italic;
+      font-weight: 400;
+    }
+
+    @font-face {
+      font-family: "nimbus-sans";
+      src: url("https://use.typekit.net/af/360cf4/000000000000000000012544/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/360cf4/000000000000000000012544/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/360cf4/000000000000000000012544/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+      font-display: auto;
+      font-style: normal;
+      font-weight: 700;
+    }
+
+    @font-face {
+      font-family: "nimbus-sans";
+      src: url("https://use.typekit.net/af/a44ffc/000000000000000000010121/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"), url("https://use.typekit.net/af/a44ffc/000000000000000000010121/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"), url("https://use.typekit.net/af/a44ffc/000000000000000000010121/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+      font-display: auto;
+      font-style: italic;
+      font-weight: 700;
+    }
+
+    @font-face {
+      font-family: "nimbus-sans-condensed";
+      src: url("https://use.typekit.net/af/015761/000000000000000077359e1c/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/015761/000000000000000077359e1c/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/015761/000000000000000077359e1c/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+      font-display: auto;
+      font-style: normal;
+      font-weight: 400;
+    }
+
+    @font-face {
+      font-family: "nimbus-sans-condensed";
+      src: url("https://use.typekit.net/af/d947b7/000000000000000077359e20/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/d947b7/000000000000000077359e20/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/d947b7/000000000000000077359e20/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+      font-display: auto;
+      font-style: normal;
+      font-weight: 700;
+    }
+
+    @font-face {
+      font-family: "nimbus-sans-extended";
+      src: url("https://use.typekit.net/af/222328/000000000000000077359e1d/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/222328/000000000000000077359e1d/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/222328/000000000000000077359e1d/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+      font-display: auto;
+      font-style: normal;
+      font-weight: 400;
+    }
+
+    @font-face {
+      font-family: "nimbus-sans-extended";
+      src: url("https://use.typekit.net/af/d9b817/000000000000000077359e22/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/d9b817/000000000000000077359e22/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/d9b817/000000000000000077359e22/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+      font-display: auto;
+      font-style: normal;
+      font-weight: 700;
+    }
+
+    body {
+      width: 9.25in;
+      height: 6.25in;
+      margin: 0;
+      padding: 0;
+      background-size: 9.25in 6.25in;
+      background-repeat: no-repeat;
+    }
+
+    .header {
+      position: absolute;
+      width: 5.8608in;
+      height: 1.517in;
+      left: .4958in;
+      top: 0.4214in;
+      font-size: 35pt;
+      line-height: 40pt;
+      font-family: "nimbus-sans-condensed";
+      font-weight: Bold;
+    }
+
+    .header-highlight {
+      color: rgb(242, 65, 65);
+    }
+
+    .logo-text {
+      position: absolute;
+      width: 1.6725in;
+      height: .4322in;
+      left: 6.8388in;
+      top: 5.2663in;
+    }
+
+    .logo-star {
+      position: absolute;
+      width: .6765in;
+      height: 1.0464in;
+      left: 7.769in;
+      top: 4.7855in;
+    }
+
+    .bg-image {
+      position: absolute;
+      width: 9.25in;
+      height: 6.25in;
+      left: 0in;
+      top: 0in;
+      object-fit: cover;
+      background-image: url(https://www.plannedparenthoodaction.org/uploads/filer_public_thumbnails/filer_public/50/30/503074a3-6f56-480f-af23-cbad5e5616d1/abortion-safe-legal.png__1200x1200_q65_subsampling-2.png);
+      background-size: auto 7.3in;
+      background-repeat: no-repeat;
+      background-position: 0in -.1in;
+
+    }
+
+    #safe-area {
+      position: absolute;
+      width: 8.875in;
+      height: 5.875in;
+      left: 0.1875in;
+      top: 0.1875in;
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="bg-image"></div>
+</body>
+
+</html>
