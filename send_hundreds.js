@@ -31,7 +31,7 @@ const createPostcardPromise = async function() {
 
 async function sendPostcards() {
   const postcards = []
-  for (let i =0; i < 2; i++) {
+  for (let i =0; i < 100; i++) {
     postcards.push(createPostcardPromise())
   }
   try {
