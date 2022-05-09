@@ -1,4 +1,4 @@
-const lob = require('lob')('test_7c87ce9e02905af890428abedc07dc64087');
+const lob = require('lob')('YOUR_API_KEY_HERE');
 
 const fs = require('fs').promises;
 async function loadBack() {
